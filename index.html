@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Lab | Psychological Statistics</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+
+</head>
+
+<body>
+    <!-- inner page header -->
+    <div class="inner-banner">
+        <div class="w3l-header inner-w3l-header" id="home">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
+                    <a class="navbar-brand m-0 text-primary" href="index.html"><span class="fa fa-gamepad"></span>
+                        Psychological Statistics Lab 
+                    </a>
+                    <!-- <span class="logo">portfolio</span>-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mr-lg-4 active">
+                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="index.html">Home <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="people.html">People</a>
+                            </li>
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="publications.html">Publications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="join.html">Join the Lab</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- //inner page header -->
+
+    <!-- about me -->
+    <div class="w3l-about py-5">
+        <div class="container py-lg-3">
+            <div class="row about-content mb-lg-5">
+                <div class="col-lg-6 pr-md-5">
+                    <div class="image-block">
+                        <img src="assets/images/about.jpg" class="img-fluid myphoto" alt="my photo" />
+                        <img src="assets/images/cross.png" class="img-fluid pos" alt="dots" />
+                    </div>
+                </div>
+                <div class="col-lg-6 info pl-lg-5 mt-lg-0 mt-5 pt-lg-0 pt-3 align-center">
+                    <h4 class="">Welcome to the Psycological Statistics Lab !</h4>
+                    <p class="mt-md-4 mt-3 mb-0"> We're a Quantitative Psychology Lab affiliated with the <a href = "https://psy.sysu.edu.cn/"><font color="blue">Departments of Psychology</font></a> at Sun Yat-sen University, headed by <a href="https://psy.sysu.edu.cn/teacher/308"><font color="blue">Dr. Junhao Pan</font></a>. 
+					    <br><br>Our projects span the following directions:
+                        <br>- Structural Equation Modeling (SEM);
+						<br>- Bayesian Methods;
+						<br>- Regularized Methods;
+						<br>- Intensive Longitudinal Data Analysis.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //about me -->
+
+    <!-- stats -->
+    <section class="w3l-stats py-lg-5 py-4" id="stats">
+        <div class="gallery-inner container py-md-5 py-4">
+            <div class="row stats-con text-white">
+                <div class="col-sm-3 col-6 stats_info counter_grid">
+                    <span class="fa fa-lightbulb-o"></span>
+                    <p class="counter">30</p>
+                    <h4>Publications</h4>
+                </div>
+                <div class="col-sm-3 col-6 stats_info counter_grid1">
+                    <span class="fa fa-heart"></span>
+                    <p class="counter">6</p>
+                    <h4>Current Members</h4>
+                </div>
+                <div class="col-sm-3 col-6 stats_info counter_grid mt-sm-0 mt-5">
+                    <span class="fa fa-magic"></span>
+                    <p class="counter">6</p>
+                    <h4>Research Grants</h4>
+                </div>
+                <div class="col-sm-3 col-6 stats_info counter_grid2 mt-sm-0 mt-5">
+                    <span class="fa fa-smile-o"></span>
+                    <p class="counter">6</p>
+                    <h4>Graduates</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //stats -->
+
+
+
+    <!-- Footer -->
+    <section class="w3l-footers-1">
+        <div class="footer bg-secondary">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="row">
+                        <div class="col-lg-8 footer-left">
+							<center><p class="m-0">Copyright &copy; 2020.</p></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Footer -->
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- /move top -->
+
+    <!-- common jquery -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+
+    <!-- stats number counter-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+    <!-- //stats number counter -->
+
+    <!--  bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--  //bootstrap js -->
+
+</body>
+
+</html>
